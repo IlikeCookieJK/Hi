@@ -1,0 +1,72 @@
+body {
+    display: flex;
+    flex-flow: row wrap;
+    background-color: green;
+}
+
+header {
+    display: flex;
+    flex-basis: 100%;
+    font-size: 11rem;
+    justify-content: center;
+    align-items: center;
+    color: red;
+}
+
+.menu {
+    display: flex;
+    flex-basis: 74%;
+    flex-flow: row wrap;
+    order: 1;
+    /* border: 1px rgb(163, 41, 41) solid; */
+}
+
+.menu h1 {
+    font-size: 3rem;
+    display: flex;
+    flex-flow: row wrap;
+    flex-basis: 100%;
+    height: 4rem;
+    /* border: 1px red solid; */
+}
+
+.items {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+    flex-basis: 100%;
+    /* border: 1px red solid; */
+}
+
+.items section {
+    display: flex;
+    flex-flow: row wrap;
+    flex-basis: 40%;
+    padding: 1rem 1rem 1rem .5rem;
+    color: beige;
+    background-color: blueviolet;
+}
+
+.items h2,p{
+    display: flex;
+    flex-basis: 100%;
+}
+
+aside {
+    display: flex;
+    flex-basis: 25%;
+    flex-flow: column wrap;
+    /* border: 1px red solid; */
+}
+
+h3 {
+    background-color: grey;
+    color: aliceblue;
+    font-size: 2.5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+    margin: 1rem 0 1rem 6.5rem;
+    /* border: 1px red solid; */
+}
